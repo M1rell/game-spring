@@ -16,8 +16,20 @@
                 <th>Nome</th>
                 <th>&nbsp;</th>
             </tr>
-        </c:forEach>
+        </c:forEach var"item"  items="${categorias}">
+        <tr>
+            <td>${item.id}</td>
+            <td>${item.nome}</td>
+            <td>
+                <a href="/categoria/update?id=${item.id}" class="btn btn=warning">EDITAR</a>
+                <a href="/categoria/delete?id=${item.id}" class="btn btn=danger">EXCLUIR</a>
+            </td>
+        </tr>
+    </c:forEach>
         </table>
     </div>
 </body>
 </html>
+
+
+
