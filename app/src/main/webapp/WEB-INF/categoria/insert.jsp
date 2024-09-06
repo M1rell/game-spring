@@ -15,8 +15,8 @@
                 <input type="text" name="nome" class="form-control" />
             </div>
             <br />
-                <a href="/categoria/list" class="btn btn-primary">Voltar</a>
-                <button type="submit" class="btn btn-success">Salvar</button>
+            <a href="/categoria/list" class="btn btn-primary">Voltar</a>
+            <button type="submit" class="btn btn-success">Salvar</button>
         </form>
     </div>
 </body>

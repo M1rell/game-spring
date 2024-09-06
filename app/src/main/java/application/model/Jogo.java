@@ -3,7 +3,7 @@ package application.model;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -32,7 +32,7 @@ public class Jogo {
     @ManyToMany
     @JoinTable(
         name = "jogos_possuem_plataformas",
-        joinColumns = @joinColumn(name = "id_jogos"),
+        joinColumns = @JoinColumn(name = "id_jogos"),
         inverseJoinColumns = @JoinColumn(name = "id_plataformas"))
     private Set<Plataforma> plataformas = new HashSet<>();
 

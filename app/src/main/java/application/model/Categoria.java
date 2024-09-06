@@ -20,7 +20,7 @@ public class Categoria {
     @Column(unique = true, nullable = false)
     private String nome;
     
-    @OneToMany(mappedBy = "categoria"
+    @OneToMany(mappedBy = "categoria")
     private Set<Jogo> jogos = new HashSet<>();
 
     public void setId(long id) {

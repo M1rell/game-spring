@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import application.model.Categoria;
 import application.repository.CategoriaRepository;
 
-@controller
+@Controller
 @RequestMapping("/categoria")
 public class CategoriaController{
     @Autowired
