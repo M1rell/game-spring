@@ -35,7 +35,7 @@ class="custom-control-input" name="plataformas" value="$(p.id)" id="$(p.id)" />
 </ciforeach>
 </div>
 <br />
-<a href="/jogo/list" class="btn btn-primary" »voltar</a>
+<a href="/jogo/list" class="btn btn-primary">voltar</a>
 <button type="submit" class="btn btn-success">Salvar</button>
 </form>
 </div>

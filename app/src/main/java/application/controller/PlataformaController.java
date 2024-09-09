@@ -54,7 +54,8 @@ public String update(
     return "redirect:/plataforma/list";
 }
 
-@RequestMapping(value = "/update", method = RequestMethod.POST) public string update(
+@RequestMapping(value = "/update", method = RequestMethod.POST) 
+public String update(
 @RequestParam("id") long id,
 @RequestParam("nome") String nome ) {
 Optional <Plataforma> plataforma = plataformaRepo.findById(id);
