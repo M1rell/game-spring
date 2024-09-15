@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<htel lange"pt-br">
+<html lang"pt-br">
 <head>
-<neta charset="UTF-8" />
+<meta charset="UTF-8" />
 <title>Remover Plataforma</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"” rel="stylesheet">
 </head>
@@ -13,8 +13,8 @@
 <form action="/plataforma/delete" method="post">
 <input type="hidden" name="id" value="${plataforma.id}" />
 <br />
-<a href="/plataforma/List" class="btn btn-primary" »oltar</ar
-<button type="submit” class="btn btn-danger">Excluir</button>
+<a href="/plataforma/list" class="btn btn-primary">Voltar</a>
+<button type="submit" class="btn btn-danger">Excluir</button>
 </form>
 </div>
 </body>
